@@ -1,0 +1,54 @@
+<html>
+   <head>
+      
+   </head>
+
+   <body>
+             
+       <h1 align="center">ATTENTION ANALYTICS</h1>      
+             
+          
+    </header>
+
+
+      <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart']});     
+      </script>
+   </head>
+   
+   <body bgcolor="#708090">
+      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto">
+      </div>
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Browser');
+            data.addColumn('number', 'Percentage');
+            data.addRows([
+               ['Monday', 45.0],
+               ['Teusday', 26.8],
+               ['Wednesday', 12.8],
+               ['Thursday', 8.5],
+               ['Friday', 6.2],
+               ['Saturday', 0.7]
+            ]);
+               
+            // Set chart options
+            var options = {
+               'title':'Attention Analytics',
+               'width':550,
+               'height':400,
+               is3D:true
+            };
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.PieChart(document.getElementById('container'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+      </script>
+   </body>
+</html>

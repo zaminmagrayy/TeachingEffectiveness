@@ -1,0 +1,38 @@
+
+<html>
+   <head>
+<h1 align="center">ATTENTION ANALYTICS</h1>
+      <title>Analytics</title>
+      <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart']});     
+      </script>
+   </head>
+   
+   <body bgcolor="#708090">
+      <div id = "container" style = "width: 600px; height: 500px; margin: 0 auto">
+      </div>
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = google.visualization.arrayToDataTable([
+               ['ATTENTION', ''],
+               ['10AM-11AM',  20],
+               ['11 AM -12PM', 24 ],
+               ['1 PM-2PM', 15],
+               ['2PM-3PM',  10],
+               ['3PM-4PM',5],
+            
+               ]);
+
+            var options = {title: 'ATTENTION'}; 
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.ColumnChart(document.getElementById('container'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+      </script>
+   </body>
+</html>

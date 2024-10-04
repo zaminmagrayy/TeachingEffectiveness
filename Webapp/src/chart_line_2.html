@@ -1,0 +1,231 @@
+
+
+<html>
+   <head>
+      <title>Attention Analytics</title>
+       <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--external css-->
+  <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/zabuto_calendar.css">
+  <link rel="stylesheet" type="text/css" href="lib/gritter/css/jquery.gritter.css" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet">
+  <script src="lib/chart-master/Chart.js"></script> <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart','line']});  
+      </script>
+      <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+          <p class="centered"><a><img src="img/mietlogo.png" class="img-circle" width="80"></a></p>
+          <h5 class="centered">Attention Analysis</h5>
+          <li class="mt">
+           <!-- <a class="active" href="index.html">-->
+              <i class="fa fa-dashboard"></i>
+              <span></span>r
+              </a>
+          </li>
+         
+          <!--
+          <li class="sub-menu">
+            <a href="javascript:;">r
+              <i class="fa fa-book"></i>
+              <span>Extra Pages</span>
+              </a>
+            <ul class="sub">
+              <li><a href="blank.html">Blank Page</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="lock_screen.html">Lock Screen</a></li>
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="invoice.html">Invoice</a></li>
+              <li><a href="pricing_table.html">Pricing Table</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="404.html">404 Error</a></li>
+              <li><a href="500.html">500 Error</a></li>
+            </ul> 
+          </li>-->
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-bar-chart"></i>
+              <span>Daily Analytics</span>
+              </a>
+            <ul class="sub">
+              <li><a>Class Analytics</a></li>
+              <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-tasks"></i>
+              <span> Choose Class</span>
+              </a>
+              <ul class="sub"> <li> <a href ="chart_line.html"> CSEA1 </a></li></ul>
+              <ul class="sub"> <li> <a> CSEA2 </a></li></ul>
+              <ul class="sub"> <li> <a> ECEB1 </a></li></ul>
+              <ul class="sub"> <li> <a> ECEB2 </a></li></ul></li>
+
+              <li><a href="advanced_form_components.html">Department Analytics</a></li>
+              <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-tasks"></i>
+              <span> Choose Department</span>
+              </a>
+              <ul class="sub"> <li> <a href ="graph showing file"> CSE</a></li></ul>
+              <ul class="sub"> <li> <a> ECE </a></li></ul>
+              <ul class="sub"> <li> <a> EE </a></li></ul>
+              <ul class="sub"><li><a>IT</a></li></ul>
+              <ul class="sub"> <li> <a> IT </a></li></ul></li>
+              
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-line-chart"></i>
+              <span>Monthly Analytics</span>
+              </a>
+           <ul class="sub">
+              <li><a>Class Analytics</a></li>
+              <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-tasks"></i>
+              <span> Choose Class</span>
+              </a>
+              <ul class="sub"> <li> <a href ="graph showing file"> CSEA1 </a></li></ul>
+              <ul class="sub"> <li> <a> CSEA2 </a></li></ul>
+              <ul class="sub"> <li> <a> ECEB1 </a></li></ul>
+              <ul class="sub"> <li> <a> ECEB2 </a></li></ul></li>
+
+              <li><a href="advanced_form_components.html">Department Analytics</a></li>
+              <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-tasks"></i>
+              <span> Choose Department</span>
+              </a>
+              <ul class="sub"> <li> <a href ="graph showing file"> CSE</a></li></ul>
+              <ul class="sub"> <li> <a> ECE </a></li></ul>
+              <ul class="sub"> <li> <a> EE </a></li></ul>
+              <ul class="sub"><li><a>IT</a></li></ul>
+              <ul class="sub"> <li> <a> IT </a></li></ul></li>
+              
+            </ul>
+          </li>
+          <li>
+            <a>
+              <i class="fa fa-clock-o"></i>
+              <span>Peak Hours! </span>
+            
+              </a>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class=""></i>
+              <span></span>
+              </a>
+            <ul class="sub">
+              <li><a href="morris.html"></a></li>
+              <li><a href="chartjs.html"></a></li>
+              <li><a href="flot_chart.html"></a></li>
+              <li><a href="xchart.html"></a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class=""></i>
+              <span></span>
+              </a>
+            <ul class="sub">
+              <li><a href="lobby.html"></a></li>
+              <li><a href="chat_room.html"></a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="google_maps.html">
+              <i></i>
+              <span></span>
+              </a>
+          </li>
+        </ul>
+
+        
+      </div>
+    </aside>
+    <div align="center">
+
+
+      <div id = "container" style = "width: 1000px; height: 700px; margin-top:-20;
+margin-bottom:0;
+margin-left:0;
+margin-right:auto">
+      </div>
+   </head>
+
+   <body>
+   	<header class="header black-bg">
+      <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+      </div>
+      <!--logo start-->
+      <a href="index.html" class="logo"><b>AI ATTENTION ANALYTICS<span></span></b></a>
+      <!--logo end-->
+      <div class="nav notify-row" id="top_menu">
+        <!--  notification start -->
+        <ul class="nav top-menu">
+          <!-- settings start -->
+
+              </a>
+            <ul class="dropdown-menu extended tasks-bar">
+              <div class="notify-arrow notify-arrow-green"></div>
+              <li>
+                <p class="green"></p>
+              </li>
+             
+             
+             
+             
+          
+    </header>
+
+
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Month');
+            data.addColumn('number', 'Class');
+
+            data.addRows([
+               ['Monday',  20],
+               ['Tuesday',  25],
+               ['Wednesday',  30],
+               ['Thursday',  10],
+               ['Friday',  5],
+               ['Saturday',  5],
+               
+            ]);
+               
+            // Set chart options
+            var options = {'title' : 'Attention Analytics',
+               hAxis: {
+                  title: 'Month'
+               },
+               vAxis: {
+                  title: 'Attention'
+               },   
+               'width':1000,
+               'height':700,
+               pointsVisible: true	  
+            };
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.LineChart(document.getElementById('container'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+      </script>
+  </div>
+   </body>
+</html>
