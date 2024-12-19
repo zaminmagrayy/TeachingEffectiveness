@@ -1,7 +1,11 @@
 # Real-Time Privacy-Preserving Student Attention Monitoring System  
 
-This project introduces a novel system to monitor and analyze student attention levels in real-time during classroom sessions. By leveraging Computer Vision techniques, the system ensures both privacy and efficiency in detecting attention and engagement levels.  
+This project introduces a novel system to monitor and analyze student attention levels in real-time during classroom sessions. By leveraging Computer Vision techniques, the system ensures both privacy and efficie
 
+Uploading TeachingEffectiveness  .mp4…
+
+ncy in detecting attention and engagement levels.  
+demo 
 ## Key Features  
 
 1. *Privacy-Preserving*:  
