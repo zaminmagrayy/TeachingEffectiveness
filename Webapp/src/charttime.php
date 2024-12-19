@@ -30,7 +30,7 @@
          ?>
         var color = Chart.helpers.color;
         var barChartData = {
-            labels: ['Monday', 'Teusday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+            labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
             datasets: [{
                 label: 'Time',
                 backgroundColor: color(window.chartColors.red).alpha(0.99).rgbString(),

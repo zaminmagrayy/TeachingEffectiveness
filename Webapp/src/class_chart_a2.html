@@ -1,25 +1,36 @@
 
 <html>
    <head>
-<h1 align="center">ATTENTION ANALYTICS</h1>
       <title>Analytics</title>
       <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
       </script>
       <script type = "text/javascript">
          google.charts.load('current', {packages: ['corechart']});     
-      </script>
+         </script>
    </head>
    
-   <body bgcolor="#708090">
-      <div id = "container" style = "width: 600px; height: 500px; margin: 0 auto">
-      </div>
-      <script language = "JavaScript">
+   <body bgcolor="#000" style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #000;
+   color: #fff;
+   font-family: Arial, sans-serif;">
+      <div >
+
+         <h1 align="center" style="color: #fff; font-size: 36px;
+    margin-bottom: 20px;">ATTENTION ANALYTICS</h1>
+         
+         <div id = "container" style = "width: 600px; height: 500px; margin: 0 auto;  background-color: #111;
+         border: 1px solid #333;
+         padding: 20px;
+         border-radius: 5px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+         </div>
+         </div>
+         <script language = "JavaScript">
          function drawChart() {
             // Define the chart to be drawn.
             var data = google.visualization.arrayToDataTable([
                ['ATTENTION', ''],
                ['Monday',  25],
-               ['Teusday', 20 ],
+               ['Tuesday', 20 ],
                ['Wednesday', 15],
                ['Thursday',  10],
                ['Friday',5],

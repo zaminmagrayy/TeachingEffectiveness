@@ -139,8 +139,7 @@ while(True):
 
   #print(percent_attentive)
   
-  
-  cv2.imshow('frame',video_capture)
+    cv2.imshow('frame',video_capture)
   if cv2.waitKey(1) & 0xFF == ord('q'):
     break
 df=pd.DataFrame({'frame':counter_array,'radius':required_ans_array})
