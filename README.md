@@ -1,3 +1,7 @@
+DEMO:
+[![Watch the video](https://github.com/zaminmagrayy/TeachingEffectiveness/blob/69a88b1cafa5396c72f9863055e838ef01b118de/TeachingEffectiveness3.mp4)
+
+
 # Real-Time Privacy-Preserving Student Attention Monitoring System  
 
 This project introduces a novel system to monitor and analyze student attention levels in real-time during classroom sessions. By leveraging Computer Vision techniques, the system ensures both privacy and efficie
@@ -62,5 +66,3 @@ python app.py
 Folder Structure
 
 student-attention-monitor/
-DEMO:
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
